@@ -1,0 +1,138 @@
+body {
+	overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+	background-image: linear-gradient(to right, #7B1FA2, #E91E63);
+}
+
+header{
+	background: #ffffffab;
+}
+
+header ul li a span{
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	color: #020614fa;
+}
+
+header ul li a span:hover{
+	color: #0053B3;
+}
+
+header a{
+	color: #020614fa;
+}
+
+.container-fluid.main-container {
+    width: 100vw;
+	height: auto;
+}
+
+.card{
+	background-color: transparent;
+}
+
+.sm-text {
+	font-size: 10px;
+	letter-spacing: 1px;
+}
+
+.sm-text-1 {
+	font-size: 14px;
+}
+
+.green-tab {
+	background-color: #00C853;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px 3px 5px 3px;
+}
+
+.btn-red {
+	background-color: #E64A19;
+	color: #fff;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+}
+
+.btn-red:hover {
+	background-color: #BF360C;
+}
+
+.btn-red:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.round-icon {
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+
+/*Styling for dots*/
+.fa-circle {
+	font-size: 10px;
+	color: #EEEEEF;
+}
+
+.green-dot {
+	color: #4CAF50;
+}
+
+.red-dot {
+	color: #E64A19;
+}
+
+.yellow-dot {
+	color: #FFD54F;
+}
+
+.grey-text {
+	color: #BDBDBD;
+}
+
+.green-text {
+	color: #4CAF50;
+}
+
+/*border for block*/
+.block {
+	border-right: 1px solid #F5EEEE;
+	border-top: 1px solid #F5EEEE;
+	border-bottom: 1px solid #F5EEEE;
+}
+
+.profile-pic img {
+	border-radius: 50%;
+}
+
+.rating-dot {
+	letter-spacing: 5px;
+}
+
+.via {
+	border-radius: 20px;
+	height: 28px;
+}
+
+
+.profile-card {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-top: 50px;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.profile-card h2 {
+	color: #343a40;
+}
+.profile-card .form-group label {
+	color: #6c757d;
+}
